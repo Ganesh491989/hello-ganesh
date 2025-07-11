@@ -1,11 +1,10 @@
 replicaCount: 1
 
 image:
-  repository: hello-ganesh
+  repository: 188386798410.dkr.ecr.us-east-2.amazonaws.com/hello-ganesh
   tag: latest
   pullPolicy: IfNotPresent
 
 service:
   type: NodePort
   port: 80
-
