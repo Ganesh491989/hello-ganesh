@@ -1,4 +1,4 @@
-replicaCount: 1
+replicaCount: 3
 
 image:
   repository: 188386798410.dkr.ecr.us-east-2.amazonaws.com/hello-ganesh
